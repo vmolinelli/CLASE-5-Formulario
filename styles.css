@@ -134,7 +134,6 @@ em {
 
 .form-row .checkbox-label {
     margin-bottom: 0;
-    background-color: blue;
 }
 
 /*Media Queries para Desktop*/
@@ -185,8 +184,32 @@ em {
     .form-row .checkbox-label {
         margin-left: 120px;
         width: auto;
+        color: #fffff;
+    }
+
+    .form-row button {
+        margin-left: 120px;
     }
 }
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    background: #5995DA;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.form-row button:hover {
+    background-color: #76AEED;
+}
+
+.form-row button:active {
+    background-color: #407FC7;
+}
+
 
 /*Media Queries Para impresoras
 @media print {
