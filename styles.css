@@ -129,6 +129,7 @@ em {
     font-size: 14px;
     /* ¿¿Esto no va a funcionar en chrome o safari?? */
     -webkit-appearance: none;
+    appearance: none;
 }
 
 
@@ -184,7 +185,7 @@ em {
     .form-row .checkbox-label {
         margin-left: 120px;
         width: auto;
-        color: #fffff;
+        color: #ffffff;
     }
 
     .form-row button {
