@@ -185,7 +185,7 @@ em {
     .form-row .checkbox-label {
         margin-left: 120px;
         width: auto;
-        color: #ffffff;
+        color: #999999;
     }
 
     .form-row button {
@@ -211,6 +211,9 @@ em {
     background-color: #407FC7;
 }
 
+span {
+    color: #5D6063;
+}
 
 /*Media Queries Para impresoras
 @media print {
